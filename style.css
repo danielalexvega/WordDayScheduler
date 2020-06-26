@@ -1,0 +1,110 @@
+/* E8DCB9 - Dutch White */
+/* 0D1B1E - Dark Jungle Green */
+/* 7798AB - Air Superiority Blue */
+/* C3DBC5 - Cambridge Blue */
+/* F2CEE6 - Pink Lace */
+
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  background-color: #E8DCB9;
+}
+
+p{
+  line-height: 1.5;
+}
+
+textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #0D1B1E;
+  /* border-left: 1px solid #0D1B1E; */
+  padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: #0D1B1E;
+  border-radius: 0;
+  border-bottom: 5px solid #0D1B1E;
+  margin:0;
+  padding:30px;
+}
+
+.description{
+  white-space: pre-wrap;
+}
+
+.time-block{
+  width:60%;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  width:100%;
+  margin:5px auto;
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid #E8DCB9;
+}
+
+.hour {
+  font-size: 1.3vw;
+  width:40%;
+  background-color: #E8DCB9;
+  color: #0D1B1E;
+  /* border-top: 1px dashed #0D1B1E; */
+  border: 1px solid #0D1B1E;
+  padding-top: 10px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.past {
+  background-color: #C3DBC5;
+  color: #0D1B1E;
+}
+
+.present {
+  background-color: #1F4047;
+  color: #EFEFEF;
+}
+
+.future {
+  background-color: #F2CEE6;
+  color: #0D1B1E;
+}
+
+.saveBtn {
+  width:20%;
+  border-left: 1px solid 0D1B1E;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #7798AB;
+  color: #eeeeee;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+.custIcon{
+  display: inline-block;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+textArea{
+  font-size: 2.2vw;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-size: 1.3vw;
+  opacity: 1; /* Firefox */
+}
