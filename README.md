@@ -5,4 +5,6 @@ The app uses moment.js to let the user know the current date, and then based on 
 
 A user simply writes their task, and then LOCKS the event in place to save. Locking it will store it in local memory,and then event will persist after the page refreshes. 
 
+Keep yourself on schedule here, https://danielalexvega.github.io/WordDayScheduler/.
+
 
